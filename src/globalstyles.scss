@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Libre_Calson_Display';
+    src: url(./assets/fonts/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre_Calson_Text';
+    src: url(./assets/fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre_Calson_Text';
+    src: url(./assets/fonts/Libre_Caslon_Text/LibreCaslonText-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre_Calson_Text';
+    src: url(./assets/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+$body-font: Libre_Calson_Text, serif;
+$header-font: Libre_Calson_Display, serif;
