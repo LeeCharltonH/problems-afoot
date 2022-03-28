@@ -1,22 +1,20 @@
-
 import styles from "./nav.module.scss";
+import { Link } from "react-router-dom";
 
 const Nav = (props) => {
   return (
     <nav className={styles.nav}>
-        <div className={styles.navContainer}>
       <ul>
-          <li>
-            Home
-          </li>
-          <li>
-            Services
-          </li>
-          <li>
-            Contact
-          </li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/services">
+          <li>Services</li>
+        </Link>
+        <Link to="/contact">
+        <li>Contact</li>
+        </Link>
       </ul>
-      </div>
     </nav>
   );
 };

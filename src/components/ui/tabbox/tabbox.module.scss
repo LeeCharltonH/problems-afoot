@@ -1,0 +1,54 @@
+.tabBtnContainer{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tabBtn {
+    width: 100%;
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.tabBtn.active{
+    background-color: darkgray;
+    color: white;
+}
+
+.tabBtn:hover {
+    background-color: darkgray;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.tabServiceContent {
+  display: flex;
+  div {
+    width: 50%;
+  }
+  img {
+    width: 100%;
+  }
+  p{
+    white-space: pre-wrap;
+  }
+}
+
+@media (max-width: 660px) {
+  .tabServiceImage {
+    display: none;
+  }
+  .tabServiceContent {
+    display: flex;
+    div {
+      width: 100%;
+    }
+}
+}

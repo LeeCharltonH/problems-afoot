@@ -7,16 +7,6 @@ import Profile from "../../ui/profile/profile";
 import ServiceIcons from "../../ui/serviceIcons/serviceIcoms";
 
 const Home = (props) => {
-  const services = [
-    "Corn and Callus Removal",
-    "Gait Analysis",
-    "Musculoskeletal Issues",
-    "Ingrown Toenails",
-    "Fungal Nails",
-    "Verrucae",
-    "Foot Pain",
-    "Leg Pain",
-  ];
 
   return (
     <div className="styles.home">
@@ -28,13 +18,6 @@ const Home = (props) => {
               className={styles.profileImage}
             />}/>
         </Section>
-        <Section h2="Services">
-          <ServiceIcons list={services} />
-        </Section>
-        <Section h2="Locations">
-          
-        </Section>
-        <Section h2="Reviews"></Section>
       </Main>
     </div>
   );
