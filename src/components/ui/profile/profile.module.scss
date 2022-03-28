@@ -1,0 +1,44 @@
+.profileContainer{
+    margin-left: 40px;
+}
+
+.profileContent {
+    display: flex;
+    align-items: center;
+}
+
+.profileItem{
+    max-width: 50%;
+    .profileItemContent {
+        max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: -50px;
+    }
+    img {
+        border-radius: 5px;
+    }
+}
+
+.profileItemCopy{
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px){
+    .profileContainer{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .profileContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileItem{
+        max-width: 100%;
+        .profileItemContent{
+            left: 0;
+            top:-40px;
+        }
+    }
+   
+}

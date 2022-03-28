@@ -1,0 +1,17 @@
+@import '../../../globalstyles.scss';
+
+.serviceIconsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.serviceIconItem{
+    border-radius: 5px;
+    background-color: $lightGreen;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    p{
+        margin: 0;
+    }
+}
