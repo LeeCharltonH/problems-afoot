@@ -1,17 +1,28 @@
-@import '../../../globalstyles.scss';
+@import "../../../globalstyles.scss";
 
-.serviceIconsContainer{
-    display: flex;
-    flex-wrap: wrap;
+.serviceIconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    text-decoration: none;
+  }
 }
-.serviceIconItem{
-    border-radius: 5px;
-    background-color: $lightGreen;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    margin: 5px;
-    p{
-        margin: 0;
-    }
+.serviceIconItem {
+  border-radius: 5px;
+  background-color: $lightGreen;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  p {
+    margin: 0;
+  }
 }
+
+.serviceIconItem:hover {
+    background-color: $white;
+    color: $black;
+    transition: all 0.3s ease;
+}
+

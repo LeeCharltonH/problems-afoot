@@ -52,7 +52,7 @@ const TabBox = (props) => {
       <article className={styles.tabServiceContent}>
         <div className={styles.tabServiceImage}>
           <img
-            src={require(`../../../assets/images/services/${serviceObj.img()}`)}
+            src={require(`../../../assets/images/${serviceObj.img()}`)}
             alt={`Problems Afoot podiatry in Oxfordshire. ${serviceObj.title}.`}
           />
         </div>

@@ -24,10 +24,7 @@ const Services = (props) => {
         <Section>
           <TabbedServices />
         </Section>
-        <Section h2="Services">
-          <ServiceIcons list={servicesShort} />
-        </Section>
-        <Section>
+        <Section h2="Podiatry surgeries">
           <ListedServices />
         </Section>
       </Main>
