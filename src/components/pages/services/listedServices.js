@@ -14,6 +14,7 @@ Prices vary depending on the number of nails involved.`,
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 0,
     },
     {
       title: "MSK",
@@ -26,6 +27,7 @@ If the cause of pain is reversible, then a treatment plan will be formulated and
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 1,
     },
     {
       title: "Orthoses",
@@ -36,6 +38,7 @@ Pricing according to prescription`,
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 2,
     },
     {
       title: "ESWT",
@@ -55,6 +58,7 @@ The suitability of ESWT is assessed at an initial assessment appointment. Eviden
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 3,
     },
     {
       title: "Onward Referral",
@@ -77,6 +81,7 @@ These include:
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 4,
     },
     {
       title: "Fungal Nails",
@@ -93,6 +98,7 @@ For superficial infections, there are products available which can be painted on
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 5,
     },
     {
       title: "Virtual Consultation",
@@ -107,18 +113,18 @@ We can discuss your concerns and I can give you my opinion on the best way forwa
       img: function () {
         return this.title.toLowerCase().replaceAll(" ", "-") + ".jpeg";
       },
+      id: 6,
     },
   ];
 
   const title = services.map((obj) => obj.title);
-
-  console.log(title);
+  
 
   return (
     <React.Fragment>
       <ServiceIcons list={title} />
-      {services.map(obj => {
-          return <Profile data={obj}></Profile>
+      {services.map((obj) => {
+        return <Profile  data={obj}></Profile>;
       })}
     </React.Fragment>
   );

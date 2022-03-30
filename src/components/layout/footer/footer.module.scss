@@ -4,4 +4,40 @@
     background-color: black;
     color:white;
     z-index: 100;
+    font-size: 0.9em;
+    color: lightgrey;
+    padding: 20px 0px;
+}
+
+.footerContainer{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footerCopyright{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    font-size: 0.7em;
+}
+.footerAddresses{
+    display: flex;
+    justify-content: space-evenly;
+    div{
+        margin: 0px 10px;
+    }
+}
+
+
+@media (max-width: 900px){
+    .footerContainer{
+        flex-direction: column;
+    }
+    .footerAddresses{
+        width: 100%;
+    }
 }

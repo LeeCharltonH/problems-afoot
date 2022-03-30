@@ -3,10 +3,12 @@
 .nav {
   z-index: 10;
   width: 100%;
+  display: flex;
+  justify-content: center;
   ul {
-    margin: auto;
+    margin: 0;
     list-style: none;
-    width: 300px;
+    padding: 0;
     li {
       float: left;
       padding: 10px;
