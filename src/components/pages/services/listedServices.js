@@ -1,6 +1,8 @@
 import React from "react";
 import Profile from "../../ui/profile/profile";
 import ServiceIcons from "../../ui/serviceIcons/serviceIcoms";
+import styles from './services.module.scss';
+
 const ListedServices = (props) => {
   const services = [
     {
@@ -122,6 +124,9 @@ We can discuss your concerns and I can give you my opinion on the best way forwa
 
   return (
     <React.Fragment>
+        <p className={styles.p}>{`Podiatrists provide a complete service for foot problems, treating conditions which affect the skin, nails, nerves circulation, joints, tendons and muscles of the foot.
+
+Essentially, whatever it is that is troubling you, please get in touch!`}</p>
       <ServiceIcons list={title} />
       {services.map((obj) => {
         return <Profile  data={obj}></Profile>;

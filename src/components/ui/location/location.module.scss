@@ -1,0 +1,37 @@
+.locationContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.locationItem {
+    width: 50%;
+  .locationItemLeft {
+    border-radius: 10px;
+    position: relative;
+    left: -50px;
+  }
+}
+
+.loocationItemRight {
+  box-sizing: border-box;
+  
+}
+
+@media (max-width: 700px) {
+  .locationContent {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .locationItem {
+    width: 100%;
+    .locationItemLeft {
+      left: 0;
+      top: -30px;
+    }
+    .locationContainer{
+        flex-direction: column;
+       }
+  }
+}

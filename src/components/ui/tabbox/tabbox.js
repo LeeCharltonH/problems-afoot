@@ -32,7 +32,7 @@ const TabBox = (props) => {
   
 
   return (
-    <div>
+    <div className={styles.tabBoxContainer}>
       <div className={styles.tabBtnContainer}>
         {props.serviceList.map((x) => {
           let title = x.title;
@@ -56,7 +56,7 @@ const TabBox = (props) => {
             alt={`Problems Afoot podiatry in Oxfordshire. ${serviceObj.title}.`}
           />
         </div>
-        <div>
+        <div className={styles.tabServiceCopy}>
           <h2>{serviceObj.title}</h2>
           <p>{serviceObj.description}</p>
           <p>Fee £{serviceObj.price}</p>

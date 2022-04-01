@@ -1,13 +1,26 @@
+@import '../../../globalstyles.scss';
+
+.tabBoxContainer{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    background-color: white;
+    button {
+        background-color: $white;
+        color: $lightGreen;
+        font-size: 1em;
+    }
+}
+
 .tabBtnContainer{
-    max-width: 600px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .tabBtn {
     width: 100%;
     border-radius: 0px;
-    border-top-right-radius: 10px;
     border: none;
     cursor: pointer;
     box-sizing: border-box;
@@ -18,18 +31,19 @@
 }
 
 .tabBtn.active{
-    background-color: darkgray;
+    background-color: $lightGreen;
     color: white;
 }
 
 .tabBtn:hover {
-    background-color: darkgray;
+    background-color: $lightGreen;
     color: white;
     transition: all 0.2s ease;
 }
 
 .tabServiceContent {
   display: flex;
+  color: black;
   div {
     width: 50%;
   }
@@ -39,6 +53,14 @@
   p{
     white-space: pre-wrap;
   }
+  h2{
+      margin: 0;
+  }
+}
+
+.tabServiceCopy{
+    box-sizing: border-box;
+    padding: 20px 10px;
 }
 
 @media (max-width: 660px) {

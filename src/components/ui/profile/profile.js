@@ -25,7 +25,7 @@ const Profile = (props) => {
             <div className={styles.profileItemCopy}>
               <h2>{data.title}</h2>
               <p>{data.description}</p>
-              {data.price > 0 ? <p>Fee £{data.price}</p> : ""}
+              {data.price > 0 ? <p><span className={styles.fee}>Fee £{data.price}</span></p> : ""}
             </div>
           </div>
         </div>

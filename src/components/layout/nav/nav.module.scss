@@ -5,19 +5,25 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 10px 0;
   ul {
     margin: 0;
     list-style: none;
     padding: 0;
+    .active {
+        background-color: $blue;
+        color: $white;
+    }
     li {
       float: left;
       padding: 10px;
-      color: $black;
+      color: darkgray;
       font-weight: bold;
-      margin: 5px 0px;
+      margin: 5px 5px;
+      border-radius: 5px;
     }
     li:hover {
-      background-color: $lightGreen;
+      background-color: $blue;
       color: $white;
       cursor: pointer;
       border-radius: 5px;

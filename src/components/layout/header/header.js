@@ -12,12 +12,10 @@ const Header = props => {
         />
         <h1>Problems Afoot</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, est?
-          Possimus eligendi optio amet, culpa dolor velit facilis error
-          exercitationem!
+        Providing sports podiatry, routine foot care and nail surgery. A warm welcome awaits. Alison is registered with the HCPC.
         </p>
         <div>
-          <p>Location 1 | Location 2</p>
+          <p>Witney | Woodstock</p>
         </div>
         <a
           href="https://problems-afoot.selectandbook.com/"

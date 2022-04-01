@@ -1,10 +1,8 @@
-import styles from "./home.module.scss";
+
 
 import Main from "../../layout/main/main";
 import Section from "../../layout/section/section";
 import Profile from "../../ui/profile/profile";
-
-import ServiceIcons from "../../ui/serviceIcons/serviceIcoms";
 
 const Home = (props) => {
 
