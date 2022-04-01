@@ -11,7 +11,7 @@
     list-style: none;
     padding: 0;
     .active {
-        background-color: $blue;
+        background-color: darkgray;
         color: $white;
     }
     li {
@@ -23,7 +23,7 @@
       border-radius: 5px;
     }
     li:hover {
-      background-color: $blue;
+      background-color: darkgray;
       color: $white;
       cursor: pointer;
       border-radius: 5px;
